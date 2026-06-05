@@ -1,0 +1,43 @@
+# =====================
+# ENV FILES (CRITICAL)
+# =====================
+.env
+.env.*
+crm-backend/crm_backend/.env
+
+# =====================
+# PYTHON / DJANGO
+# =====================
+venv/
+env/
+__pycache__/
+*.pyc
+db.sqlite3
+
+# =====================
+# FRONTEND (NEXT.JS)
+# =====================
+crm-frontend/node_modules/
+crm-frontend/.next/
+crm-frontend/out/
+crm-frontend/.vercel/
+
+# =====================
+# LOGS / DEBUG
+# =====================
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =====================
+# OS FILES
+# =====================
+.DS_Store
+*.pem
+
+# =====================
+# TYPESCRIPT
+# =====================
+*.tsbuildinfo
+next-env.d.ts
